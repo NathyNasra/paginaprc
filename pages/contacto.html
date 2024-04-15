@@ -1,0 +1,131 @@
+<!--comentario es signo menor admiracion para abajo y doble guion medio-->
+<!DOCTYPE html> <!--este coso significa que todo el doc esta en html5-->
+<html lang="es"> <!--este atributo indiga el lenguaje, pero como no vamos a hablar ingles, en vez de en , cambiamos a es-->
+   <head> <!--etiqueta de configuraciones del navegador-->
+      <meta charset="UTF-8"> <!--el artributo charset le avisa al navegador que esta pagina tiene caracteres especiales como la ñ-->
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>PRC | Institucional</title> <!--titulo de la pagina donde estamos parados-->
+      <link rel="icon" href="../assets/imagenes/dibuico.ico"></link>
+      <link rel="stylesheet" href="../css/estilos.css">
+   </head> <!--el head es para hablarle al navegador, el body es para hablarle al usuario-->
+  
+  
+   <body>
+      <header class="contacto">
+         <nav>
+           <a href="../index.html"> 
+               <!-- <a href="https://www.google.com/">Ir a Google</a>-->
+            <img  class="logo" src="../assets/imagenes/logo1.jpg" width=100   alt="logo de la pagina de Peindaduría Rio Chubut" loading="lazy">  
+        </a>
+
+        <ul>   <!--lista desordenada, la ordenada es ol-->
+         <!--el atajo para poner muchas es li*3 o cantidad y ahi aparecen todas juntas-->
+         <li class="indexMenu">
+            <a  href="../index.html">Index</a>
+         </li>
+         <li>
+            <a  href="../pages/nosotros.html">nosotros</a>
+         </li>
+         <li>
+            <a   href="../pages/instalaciones.html">instalaciones</a>
+         </li>
+         <li>
+            <a  href="../pages/productos.html">productos</a>
+         </li>
+         <li>
+            <a  href="../pages/ubicacion.html">ubicacion</a>
+         </li>
+         <li>
+            <a  href="../pages/contacto.html">contacto</a>
+         </li>
+      </ul>
+
+ <h1>Formulario de contacto</h1>
+        
+    </nav>
+      </header> 
+      
+      <main class="contactoMain">
+
+       <form class="formulario"  action="" method="post">
+               <div class="formLabel">
+               <label for="nombre">Nombre</label>
+               <input type="text" id="nombre" name="nombre" placeholder="Juan Martin"   required>
+               </div>
+
+               <div class="formLabel">
+                  <label for="apellido">Apellido</label>
+                  <input type="text" id="apellido" name="apellido" placeholder="Perez" required>
+               </div>
+
+               <div class="formLabel"> 
+                  <label for="email">Direccion de email</label>
+                  <input type="email" id="email" name="email" placeholder="juanperez@hotmail.com" required>
+
+               </div>
+
+               <div class="formLabel">
+                  <label for="empresa">Empresa</label>
+                  <input type="text" id="empresa" name="empresa" placeholder="La oveja feliz SA">
+
+               </div>
+
+               <div class="formLabel">
+                  <label for="telefono">Telefono de contacto</label>
+                  <input type="text" id="telefono" name="telefono" placeholder="+54 (280) 5689785">
+
+               </div>
+
+               <div class="formLabel">
+                  <label class="comentarioL" for="comentario">Comentario</label>
+                  <textarea class="comentario" name="comentario" id="comentario" cols="50" rows="15" placeholder="Escriba su mensaje aquí..."></textarea>
+               </div>
+
+               <div class="formLabel">
+                  <button class="input">
+                     <input class="submitL"   type="submit" value="Submit">
+                  </button>
+               </div>
+            </form>
+            
+         <div class="volver">
+            <a href="../index.html">volver a inicio</a>
+         </div>
+
+      </main>
+
+      <footer>
+
+         <div>
+            <p class="footer1">
+            Peinaduría Rio Chubut SA
+            Galo lobato 5003
+            Bº Industrial – Trelew (CP9100)
+            Chubut – Argentina
+            0280-(15)4598585 //  280-(15)4675666
+            </p>
+          </div>
+      
+          <div>
+         <p class="footer2">
+            Barraca 
+            Burmeister Norte 530 
+            Parque Industrial Pesado
+            U9100EZA Trelew – Chubut, Argentina
+            Tel: +54 9 2804855261
+         </p>
+         </div>
+        
+         <div>
+            <p class="footer3">
+            Laboratorio de Lanas 
+            Héroes de Malvinas 2471
+            Parque Industrial Pesado
+            U9100ECM  Trelew Chubit
+            Línea Celular/Whatsapp: +54 9 280 501-0375
+         </p>
+         </div>
+      </footer>
+   </body>
+
+</html>
