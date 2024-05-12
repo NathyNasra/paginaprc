@@ -114,8 +114,8 @@ header {
        justify-content: flex-start;
        float: left;
        
+       
 }
-
 .logo {
         padding: 0%;
         float: inline-start;
@@ -349,6 +349,24 @@ a{
     padding:0%;
 }
 
+.corriedale, .merino, .criolla{
+    background: linear-gradient(to bottom, #030303b0,  #030303b0), url(../assets/imagenes/fondolog.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    overflow: hidden;
+    overflow: auto;
+    min-height: 90vh;
+    padding:2%;
+} 
+.galeD{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    column-gap: 20px;
+    margin-top: 15vh;
+    }
 
 .indexMain  {
         background: linear-gradient(to bottom, #030303b0,  #030303b0), url(../assets/imagenes/prc\ frente\ 2.jpeg);
@@ -467,8 +485,8 @@ h2{
             background-color: #43524c8c;
             text-align: center;
             z-index: 10;
-            height: 250px;
-            width: 250px;
+            height: 235px;
+            width: 235px;
             margin: 10px;
             transition: ease-in-out;
             transition-duration: 1s;
