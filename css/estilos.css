@@ -2,7 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Allura&family=Bad+Script&family=Catamaran:wght@100..900&family=Great+Vibes&family=Hind+Siliguri:wght@300;400;500;600;700&family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Satisfy&display=swap');
 
-/* general */
+/* reseteo */
 *{font-size: 1rem;
     margin: 0;
     padding: 0;
@@ -363,6 +363,90 @@ p{
     }
     
 }
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #e8eedd;
+    font-style:normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    text-align:start;
+    margin: 3%;
+    text-align: center;
+    padding:0%;
+    animation: none; 
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 5vh;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding: 0;
+    margin: 0;
+    
+        
+    .fotoG{
+        display:flex;
+        overflow:hidden;
+        height: 230px;
+        width: 230px;
+        border: none;
+        position: relative;
+        background-color: #a6fdd5bb;
+        border-style: solid;
+        border-width: 5px;
+        border-color: #039e7783;
+        
+                
+        .fotoI{
+            border: none;
+            overflow: hidden;
+            align-self: center;
+            position: absolute;
+            padding: 0;
+            
+        }
+        .fotoP{
+            opacity:0;
+            font-size: 1rem;
+            color: #e8eedd;
+            text-align: center;
+            margin-top:40%;
+            line-height: 1.5;
+            height: 230px;
+            width: 230px;
+            position: absolut;
+            
+
+        }
+
+        &:hover{
+            box-shadow: 0px 0px 40px -7px rgba(229, 250, 243, 0.75);
+            background-color: #43524c8c;
+            text-align: center;
+            z-index: 10;
+            height: 250px;
+            width: 250px;
+            margin: 10px;
+            transition: ease-in-out;
+            transition-duration: 1s;
+            .fotoI{
+                opacity: 0.2;
+            }
+            .fotoP{
+                opacity:1;
+                z-index: 15;
+                font-size: 2rem;
+            }
+        }
+    }
+}   
+
+
+
 
 
 iframe{
