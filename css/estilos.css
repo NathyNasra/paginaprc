@@ -102,6 +102,13 @@
 
 /*headers*/
 
+.error-message {
+    color: rgb(255, 70, 70);
+    font-size: 1.3rem;
+    margin-top: 5px;
+    font-weight: 600;
+}
+
 header {
     background-image: linear-gradient(to right bottom, #111214, #042834, #004142, #005934, #4e6b0e);
     padding: 5px;
