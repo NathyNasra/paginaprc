@@ -1,5 +1,6 @@
 document.addEventListener("DOMContentLoaded", function (){
     document.getElementById("formI").addEventListener("submit", function(event){
+
      event.preventDefault();
  
      resetErrorMessages();
@@ -21,8 +22,8 @@ document.addEventListener("DOMContentLoaded", function (){
  
      if (isValid) {
          alert("¡Formulario enviado correctamente!");
-         document.getElementById("formI").reset();
-        
+         document.getElementById("formI").reset(); 
+
      }
  
     }) 
