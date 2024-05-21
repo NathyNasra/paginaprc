@@ -356,6 +356,55 @@ a{
     padding:0%;
 }
 
+.climaS{
+    display: flex;
+    justify-content: end;  
+
+    .clima{
+        position: sticky;
+        opacity:1;
+        font-family: "Catamaran", sans-serif;
+        font-size: 0.8rem;
+        font-style: italic;
+        color: white;
+        height: 30px;
+        width: 200px;
+        background-color: rgb(17, 49, 4);
+        border-style:ridge;
+        border-width: 3%;
+        border-color: #06110783; 
+        border-radius: 10%;
+        box-shadow: 9px 7px 60px -8px rgba(247,243,243,0.75);
+        transition: all 1s ease-in-out;
+        .pClima{
+            display: flex;
+            justify-content: center;
+            margin-top: 1px;
+        }
+        .contenedor{
+            opacity: 0;
+            height: auto;
+            width: auto;
+            background-color: #111810;
+            border-style: groove;
+            border-color: #e8eeddbd;
+            border-radius: 10%;
+        }
+    &:hover{
+        .contenedor{
+            opacity:1;
+        }
+        .pClima{
+            background-color: #29dd47ad;
+        }
+        
+    }
+}
+}
+
+
+
+
 .corriedale, .merino, .criolla, .frisona, .hampshire, .ideal, .karakul, .romney, .lincoln, .texel{
     background: linear-gradient(to bottom, #030303b0,  #030303b0), url(../assets/imagenes/fondolog.jpg);
     background-position: center;
